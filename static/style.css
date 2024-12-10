@@ -1,0 +1,397 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2c2f33;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: large;
+}
+
+.logo-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-links a.active {
+    color: #e74c3c;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 246, 234);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.search-container input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.search-icon {
+    color: rgb(253, 253, 253);
+    margin-left: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+
+/* BLOG PAGE */
+.sec {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } 
+   
+  .blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* overflow: hiden; */
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    
+    
+    /* background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0 0 8px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    margin: 0 0 16px;
+  }
+  
+  .engagement {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .engagement span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .engagement span::before {
+    margin-right: 4px;
+  }
+  
+
+
+
+
+  /* BLOG PAGE 1 */
+  
+ sec1 {
+    font-family: Arial, sans-serif;
+    background-color: #f2f1f1;
+    margin: 0;
+    padding: 0px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+  } 
+  
+  .blog-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+
+
+    
+  }
+  
+  .blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .meta {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+    margin: 0 0 16px;
+  }
+  
+  .engagement {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+
+
+
+
+  .blog-post {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-header p {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .blog-header h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: #000;
+  }
+  
+  .subtitle {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .blog-image {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+  
+  .blog-content p {
+    margin: 1rem 0;
+  }
+  
+  blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-left: 4px solid #ff5252;
+    background-color: #fef5f5;
+    font-style: italic;
+    color: #555;
+  }
+  
+
+
+/* OTHER PAGE AND COMMENT SECTION */
+
+/* styles.css */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+} */
+
+.blog-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.social-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.social-links span {
+  margin-right: 1rem;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 1.2rem;
+}
+
+.views-likes span {
+  margin: 0 1rem;
+}
+
+.recent-posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.recent-posts h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.recent-posts .see-all {
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 0.9rem;
+}
+
+.posts-grid {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.post {
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post h3 {
+  margin: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.post-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.8rem;
+  color: #777;
+}
+
+.post-stats i {
+  margin-right: 0.3rem;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comments-section h2 {
+  margin-bottom: 1rem;
+}
+
+.comments-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-section textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.comments-section button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background: #0077b5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
